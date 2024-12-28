@@ -1,0 +1,265 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+/* Основные шрифты */
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
+/* Блок header */
+.head {
+    margin: 0;
+    text-align: center;
+    background-image: url('https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    justify-content: space-between !important ;
+    position: relative;
+    height: 500px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* Кнопка входа */
+.sign-in {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sign-in:hover {
+    background-color: #0056b3;
+}
+
+.sign-in:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Контейнер */
+.container {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Форма */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Showcase */
+.showcase .showcase-text {
+    padding: 3rem;
+    text-align: center;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .showcase .showcase-text {
+        padding: 7rem;
+    }
+}
+
+/* Features */
+.features-icons {
+    padding: 7rem 0;
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+
+.features-icons .features-icons-icon {
+    height: 7rem;
+}
+
+.features-icons .features-icons-icon i {
+    font-size: 4.5rem;
+    color: #000;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f8f9fa;
+}
+
+.testimonial-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-item h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Call-to-Action */
+.call-to-action {
+    position: relative;
+    background: url("https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 7rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #80878e;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+form {
+    position: relative;
+    z-index: 2;
+}
+
+.form-control {
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0099ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #007acc;
+}
+
+/* Footer */
+footer .list-inline-item a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+footer .list-inline-item a:hover {
+    color: #007acc;
+}
+
+footer .list-inline-item a i {
+    font-size: 1.9rem;
+}
+
+footer .text-muted {
+    margin-right: 100px;
+}
+
+/* Адаптивность */
+@media screen and (max-width: 600px) {
+    .form-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
