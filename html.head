@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta 
+  http-equiv="Content-Type" 
+  content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>our project</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="project.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- header -->
+    <section class="head"> <!-- Верхняя панель -->
+        <header>
+         <div class="logo">Search</div> <!-- Тонкий логотип -->
+         <a href="#" class="sign-in">Sign In</a>
+      </header>
+       <!-- Основное содержимое -->
+          <div class="container">
+              <h1>Build a landing page for your business or project and generate more leads!</h1>
+              
+              <!-- Контейнер с полем и кнопкой на одной линии -->
+              <div class="form-container">
+                  <input type="email" placeholder="Enter your email..." required>
+                  <button>Sign up!</button>
+              </div>
+          </div>
+        </section>
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>Fully Responsive</h3>
+            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>Production Ready</h3>
+            <p class="lead mb-0">Featuring the latest build for Production</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>Easy to Use</h3>
+            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(https://s1.stc.all.kpcdn.net/putevoditel/projectid_346574/images/tild6436-3937-4338-b861-383832666436__1.jpg);"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Fully Responsive Design</h2>
+          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url(https://scontent.fala2-1.fna.fbcdn.net/v/t39.30808-6/275510412_689384992472906_7958420994083124649_n.png?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NAaBjIUMNccQ7kNvgErX9cR&_nc_zt=23&_nc_ht=scontent.fala2-1.fna&_nc_gid=AJk8PR51zdO1aMys-xtB8Nh&oh=00_AYD3iF5LidjX7LpMHylvALknoyE-1RjixRM3cV3R3bmwlw&oe=6768597F);"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Updated For Bootstrap 4</h2>
+          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url(https://snob.ru/indoc/attachments/snob2/a9/4c/a94c8011338177817500abac8499b1034397b3d8fd0b464fe638776b415b03d6.jpg);"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Easy to Use &amp; Customize</h2>
+          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        </div>
+      </div>
+    </div>
+  </section>
